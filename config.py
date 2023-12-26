@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "YumikooBot")
 BOT_NAME = getenv("BOT_NAME" , "Yumikoo")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
-EVALOP = list(map(int, getenv("EVALOP", "5469160429 6521729563 1138802391").split()))
+EVALOP = list(map(int, getenv("EVALOP", "6521729563 1138802391").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
